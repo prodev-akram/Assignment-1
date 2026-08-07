@@ -6,7 +6,7 @@
 
 .common-btn{
     padding: 10px 15px;
-    background-color:#0c0032;
+    background-color:#3402d6;
     color: white;
     border-radius: 5px;
     border: none;
@@ -91,8 +91,8 @@
 
 .hero-btn{
     padding: 15px 20px;
-    background-color:white;
-    color: black;
+    background-color:#3402d6;
+    color: white;
     border-radius: 5px;
     border: none;
     font-size: 30px;
