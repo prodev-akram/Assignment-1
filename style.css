@@ -36,8 +36,12 @@
     justify-content: space-between;
     list-style: none;
     gap: 25px;
-    text-decoration-line: none;
     
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
 }
 
 /* nav ends */
@@ -100,7 +104,53 @@
 }
 
 
-    
 
+/* hero section ends */
+
+/* {} */
+
+
+/* Speakers section starts */
+
+
+.speakers h1{
+    font-size: 50px ;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.speakersParent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    
+    
+}
+
+.card img{
+    width: 100%;
+    
+    
+}
+
+.card{
+    
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card h5{
+    margin: 20px;
+}
+
+.card h3{
+    margin: 20px;
+}
+
+.card p{
+    margin: 20px;
+}
 
 
