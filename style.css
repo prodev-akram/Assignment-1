@@ -337,3 +337,34 @@
 }
 
 
+
+
+/* footer {}*/
+
+
+.footer{
+    background-color: #0d1b2a;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color:#888888 ;
+    padding: 90px ;
+}
+
+
+footer ul{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px ;
+}
+
+
+footer ul li{
+    color:#888888 ;
+    list-style: none;
+    padding: 0px 10px;
+}
