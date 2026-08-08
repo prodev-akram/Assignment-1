@@ -18,7 +18,7 @@
 /* nav starts */
 
 .container{
-    max-width: 1500px;
+    max-width: 1400px;
     margin: auto;
    
 }
@@ -151,6 +151,137 @@
 
 .card p{
     margin: 20px;
+}
+
+
+
+
+
+/* Speakers section end */
+
+
+/* {} */
+
+
+/* offer-card-section starts */
+
+
+.offer-header{
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+.offer-header h1{
+    font-size: 50px;
+}
+
+.offer-header p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.offer-card-parent{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.offer-card{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 20px;
+    width: 250px;
+    
+}
+
+.offer-card ul{
+    padding: 15px;
+}
+
+.offer-card ul li{
+    padding: 7px;
+}
+
+
+.offer-card h5{
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+
+.offer-card h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.offer-card p{
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.active-card{
+    background-color: #03001a;
+    
+}
+
+.active-card ul{
+    color: white;
+    
+}
+.active-card h5{
+    color: white;
+    
+}
+
+.active-card h2{
+    color: white;
+    
+}
+
+.active-card p{
+    color: white;
+    
+}
+
+
+.standard-btn{
+    background-color:white;
+    color: rgb(44, 85, 248);
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 10px;
+}
+
+.active-card-btn{
+    background-color: #3402d6;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 10px;
+
+    
+}
+
+
+
+.contact-btn{
+    background-color:white;
+    color: rgb(44, 85, 248);
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 10px;
 }
 
 
